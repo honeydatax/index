@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="#ffff00ff"
+>
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#ffff00ff"
+    >
+		<EditText 
+			android:id="@+id/text1" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_above="@+id/textView1" 
+			android:layout_alignParentLeft="true" 
+			android:layout_marginBottom="18dp" 
+			android:layout_toLeftOf="@+id/button1" 
+			android:ems="10" 
+			android:hint="nome do ficheiro" 
+			android:textColor="#ffffffff"
+			android:background="#ffff00ff"
+			> 
+			<requestFocus /> 
+		</EditText> 
+		<Button 
+			android:id="@+id/button1" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_alignBaseline="@+id/editText1" 
+			android:layout_alignBottom="@+id/Text1" 
+			android:layout_alignParentRight="true" 
+			android:text="compilar" 
+			android:background="#ffff00ff"
+			android:textColor="#ffffffff"
+			/>
+		<TextView 
+			android:id="@+id/tv1" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text=" " 
+			android:textColor="#ffff00ff"
+			android:background="#ffffffff"
+			
+			/> 
+	</LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
