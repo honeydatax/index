@@ -1,0 +1,206 @@
+ficheiros: .idx
+
+directorio do programa: /sdcard/uindex/
+
+
+saida do ficheiro:/sdcard/uindex/nome.com
+o usuario renomeia o nome do ficheiro para o nome que quizer
+
+
+variaveis defenidas
+linha
+
+palavras chave:
+comentario
+;
+//
+/*
+'
+escrever
+texto
+esperar
+numero
+ler
+sair
+:
+vai
+index
+chamar
+retorno
+fim
+se
+somar
+igual
+grafico
+caixa
+definir
+copiar
+apontador
+de
+seguinte
+ate
+sequencia
+maior
+menor
+diferente
+sorte 
+txt
+mostrar
+esconder
+zero
+formato
+memoria
+carater
+funcao
+processo
+e
+ou
+sutrair
+multiplicar
+dividir
+nao
+tamanho
+pequena
+grande
+mover
+rato
+logica
+iniciar
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------
+
+linha contem o carater de nova linha
+comentario esta linha e ignorada pelo compilador o que permite fazer referencia do codigo
+// comentario linha
+/* comentario linha
+;  comentario linha
+'  comentário linha
+escrever escreve texto no ecrã
+texto define variaves de texto
+esperar espera que carregue uma tecla
+numero reserva espaço em memoria para usar numeros de 0 a 65000
+ler le um numero e tansforma em texto para ser impresso no ecra
+sair do programa
+: etiqueta para um vai para
+vai vai para uma sub rotina
+index index lista de numeros 0...255 index de numeros pode ser usado para codigo maquina x86
+chamar chamar uma sub rotina e volta atravez do sair
+retorno retorna de uma sub rotina igual ao sair
+fim sai do programa mesmo dentro de uma sub rotina
+se se a variavel for 0 não salta se tiver outro valor salta
+somar soma uma variavel a outra variavel
+igual igual é posto antes de um se para comparar 2 numeros para ver se são iguais
+grafico entra no modo grafico
+caixa caixa desenha um rectangulo preenchido caixa x y x1 y1 cor no modo gráfico
+definir define um novo valor a um numero sem ser o que foi criado
+copiar copia um número para outro
+apontador troca o apontador a uma variavel de texto a outra
+de de executa um ciclo predefinido esta instrução trabalha em conjunto com seguinte
+seguinte fim de ciclo de um contador é incrementado até determinado valor e sai do ciclo
+ate executa um ciclo esta instrução trabalha em conjunto com sequencia
+sequencia fim de ciclo de um contador é incrementado até determinado valor e sai do ciclo
+maior  compara duas variaveis e retoma a logica numa 3*
+diferente compara duas variaveis e retoma a logica numa 3*
+menor  compara duas variaveis e retoma a logica numa 3*
+sorte retorna um numero de semente a sorte até um numero máximo
+txt sai da tela grafica
+mostrar mostra o rato
+esconder esconde o rato
+zero zero tira os zeros a esquerda para o número ser impresso ecrã
+formato semelhante ao zero mas remove os zeros e substitui os por espaços e tem a mesma função que o zero retoma um apontador
+memoria lê o valor dum carater num texto
+carater altera um carater numa variavel texto
+funcao o mesmo que :
+processo o mesmo que :
+e e testa 2 logicas saidas de uma comparação
+ou ou testa 2 logicas saidas de uma comparação
+sutrair subtrai 2 numeros em 2 variáveis
+multiplicar multiplica 2 numeros em 2 variáveis
+dividir divide 2 números em 2 variáveis
+nao não inverte a logica duma variável lógica
+tamanho retoma o tamanho de uma variável texto ate um sinal nulo ou fim de texto
+pequena muda todas as letras de maiúscula para minúsculas numa variável texto
+grande muda todas as letras de minúsculas para maiúsculas numa variável texto
+mover move dados de uma variável para outra variável
+rato tira as cordenada do rato e os botões
+logica igual ao se mas ao invés de saltar chama uma subrotina
+iniciar inicia o rato
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# carater para mudanca de linha
+
+
+
+-------------------------------
+avançado:
+ 
+
+apontadores:
+os "vai" e "chamar" permitem chamar codigo de maquina 
+
+
+
+
+existe disponível na memória :
+
+10000 bytes máximo para programa
+10000 bytes máximo para variáveis
+20000 bytes máximo para dados e textos
+
+
+22\março \2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
